@@ -305,8 +305,9 @@ html,body{
 .sticky .search input {
 	top:40px;
 }
-
-
+.my-header{
+	margin-top: -21px;
+}
 .search span {
     position: absolute;
     right: -17px;
