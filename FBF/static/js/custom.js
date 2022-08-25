@@ -56,13 +56,11 @@ $(document).ready(function(){
 		
 		var owl=$('.team-carousel');
 		owl.owlCarousel({
-			items:4,
 			margin:0,
 			
 			loop:true,
 			autoplay:true,
 			smartSpeed:500,
-			
 			//nav:false,
 			//navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 			
@@ -81,7 +79,7 @@ $(document).ready(function(){
 						items:3
 					},
 					992:{
-						items:4
+						items:2
 					}
 				}
 			
