@@ -57,8 +57,8 @@ $(document).ready(function(){
 		var owl=$('.team-carousel');
 		owl.owlCarousel({
 			margin:0,
-			
-			loop:true,
+			items:4,
+			loop: true,
 			autoplay:true,
 			smartSpeed:500,
 			//nav:false,
@@ -79,7 +79,7 @@ $(document).ready(function(){
 						items:3
 					},
 					992:{
-						items:2
+						items:4
 					}
 				}
 			
@@ -89,7 +89,7 @@ $(document).ready(function(){
 		// ii. .client (carousel)
 		
 		$('#client').owlCarousel({
-			items:5,
+			items:4,
 			loop:true,
 			smartSpeed: 1000,
 			autoplay:true,
@@ -106,7 +106,7 @@ $(document).ready(function(){
 						items:3
 					},
 					1000:{
-						items:5
+						items:4
 					}
 				}
 			});
